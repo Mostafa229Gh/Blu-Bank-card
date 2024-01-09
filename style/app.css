@@ -27,11 +27,15 @@ body {
   display: flex;
   border-radius: 12px;
 }
+.front:hover, .back:hover{
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.39);
+}
 .front {
   width: 263px;
   height: 420px;
   border-radius: 12px;
   background-color: #186bd0;
+  transition: all 0.15s linear 80ms;
 }
 .chipset {
   width: 55px;
@@ -51,6 +55,15 @@ body {
   margin-left: 40px;
   margin-top: 88px;
 }
+.card:active .front {
+  transform: rotate3d(0, 1, 0, 180deg);
+  opacity: 0;
+}
+.card:active .back {
+  transform: rotate3d(0, 1, 0, 360deg);
+  opacity: 1;
+  z-index: 2;
+}
 .back {
   z-index: -1;
   opacity: 0;
@@ -61,6 +74,8 @@ body {
   font-family: "Vazir";
   color: #30383b;
   position: absolute;
+  transform: rotate3d(0, 1, 0, 180deg);
+  transition: all 0.15s linear 80ms;
 }
 .rectangle {
   width: 63px;
