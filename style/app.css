@@ -111,3 +111,56 @@ body {
   margin-top: 15px;
   margin-left: 108px;
 }
+.button-section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.blue {
+  background-color: #186bd0;
+}
+.blue:focus {
+  border: 2px solid #01387b;
+}
+.red {
+  background-color: #f70c3d;
+}
+.red:focus {
+  border: 2px solid #920121;
+}
+.green {
+  background-color: #0ea57f;
+}
+.green:focus {
+  border: 2px solid #005b44;
+}
+.black {
+  background-color: #0e0e0e;
+}
+.black:focus {
+  border: 2px solid #000000;
+}
+.purple {
+  background-color: #7a3f75;
+}
+.purple:focus {
+  border: 2px solid #481c45;
+}
+.rossGold {
+  background-color: #df9572;
+}
+.rossGold:focus {
+  border: 2px solid #934a29;
+}
+.yellow {
+  background-color: #fcb736;
+}
+.yellow:focus {
+  border: 2px solid #856427;
+}
