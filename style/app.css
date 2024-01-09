@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+
+  border: none;
+  outline: none;
+}
+@font-face {
+  font-family: "Century Gothic";
+  src: local("Century Gothic"), url("../font/GOTHIC.TTF") format("ttf");
+}
+body {
+  user-select: none;
+  background-color: #253034;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  border-radius: 12px;
+}
+.front {
+  width: 263px;
+  height: 420px;
+  border-radius: 12px;
+  background-color: #186bd0;
+}
+.chipset {
+  width: 55px;
+  margin-top: 42px;
+  margin-left: 118px;
+}
+.text {
+  font-family: "Century Gothic";
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+}
+.logo {
+  width: 75px;
+  margin-left: 40px;
+  margin-top: 88px;
+}
