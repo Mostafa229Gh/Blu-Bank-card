@@ -3,13 +3,16 @@
 *::before {
   margin: 0;
   box-sizing: border-box;
-
   border: none;
   outline: none;
 }
 @font-face {
   font-family: "Century Gothic";
   src: local("Century Gothic"), url("../font/GOTHIC.TTF") format("ttf");
+}
+@font-face {
+  font-family: "Vazir";
+  src: local("Vazir"), url("../font/Vazir.woff2") format("woff2");
 }
 body {
   user-select: none;
@@ -47,4 +50,49 @@ body {
   width: 75px;
   margin-left: 40px;
   margin-top: 88px;
+}
+.back {
+  z-index: -1;
+  opacity: 0;
+  width: 263px;
+  height: 420px;
+  border-radius: 12px;
+  background-color: #90c0fb;
+  font-family: "Vazir";
+  color: #30383b;
+  position: absolute;
+}
+.rectangle {
+  width: 63px;
+  height: 420px;
+  background-color: #000;
+  margin-left: 20px;
+  position: absolute;
+}
+.first-section {
+  margin-left: 108px;
+  padding-top: 25px;
+}
+.website {
+  transform: rotate(-90deg);
+  position: relative;
+  left: -175px;
+  top: -84px;
+  font-size: 11px;
+}
+.num {
+  font-size: 21px;
+  margin-top: 40px;
+}
+.last-section {
+  display: flex;
+  margin-left: 108px;
+  gap: 30px;
+  font-size: 13px;
+  margin-top: 35px;
+}
+.samanBank {
+  width: 123px;
+  margin-top: 15px;
+  margin-left: 108px;
 }
