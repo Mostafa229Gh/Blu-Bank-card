@@ -1,3 +1,5 @@
+###### You can view the project now : [Open the Project](https://mostafa229gh.github.io/Blu-Bank-card/)
+
 # Blu Bank Card project
 This is an exercise project written using HTML, CSS, and JavaScript.
 
