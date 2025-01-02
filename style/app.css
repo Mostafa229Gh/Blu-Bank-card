@@ -5,6 +5,8 @@
   box-sizing: border-box;
   border: none;
   outline: none;
+  cursor: default;
+  user-select: none;
 }
 @font-face {
   font-family: "Century Gothic";
@@ -110,6 +112,11 @@ body {
   width: 123px;
   margin-top: 15px;
   margin-left: 108px;
+}
+@media (max-width: 640px){
+  .button-section{
+    transform: scale(0.85);
+  }
 }
 .button-section {
   margin-top: 80px;
